@@ -1,0 +1,30 @@
+.person-container{
+  padding: 5rem;
+  background-color: #2EB398;
+}
+
+.pic-placeholder{
+  background-color: #2EB398;
+}
+
+.text-placeholder{
+  background-color: #2EB398;
+  color: white;
+}
+
+.blank{
+  background-color: #2EB398;
+}
+
+.community-ico{
+  background-color: #2EB398;
+  text-align: right;
+}
+
+h5{
+  color: #248E78;
+}
+
+h2, p {
+  color: #D7FCF5;
+}

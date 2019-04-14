@@ -1,0 +1,55 @@
+<div class="container-fluid form-container">
+  <div class="row my-row">
+    <div class="col-8 header-col-left">
+      <h2>Get In Touch</h2>
+      <br>
+      <h5>In order to get in touch use the contact form below:</h5>
+    </div>
+    <div class="col-4 my-col-right">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-8 my-col-left">
+      <form (submit) = "onSubmit(postForm)" #postForm="ngForm">
+        <mat-form-field appearance="fill">
+          <input matInput type="text" placeholder="Name (Required)" name="usrName" ngModel required>
+        </mat-form-field>
+        <br>
+        <mat-form-field appearance="fill">
+          <input matInput type="email" placeholder="Email (Required)" name="usrEmail" ngModel email="true" required>
+        </mat-form-field>
+        <br>
+        <mat-form-field appearance="fill">
+          <input matInput type="text" placeholder="Subject (Required)" name="usrSubject" ngModel required maxlength="60">
+        </mat-form-field>
+        <br>
+        <mat-form-field appearance="fill">
+          <textarea matInput rows="8" placeholder="Write your message here... (Required)" name="usrMsg" ngModel required></textarea>
+        </mat-form-field>
+        <button mat-raised-button type="submit">SEND</button>
+      </form>
+    </div>
+    <div class="col-4 my-col-right">
+      <p><b>Lorem ipsum:</b> dolor sit amet, consectetur<br>adipiscing elit,
+        sed do eiusmod tempor<br>incididunt ut labore et dolore magna aliqua.<br>
+        Ut enim ad minim veniam, quis nostrud<br>exercitation ullamco laboris
+        nisi ut aliquip<br>ex ea commodo consequat.
+      </p>
+      <br><br>
+      <a>
+        <mat-icon matListIcon>location_on</mat-icon>
+         Elm St. 14/05 Lost City
+      </a>
+      <br><br>
+      <a>
+        <mat-icon matListIcon>local_phone</mat-icon>
+         +3528 331 86 35
+      </a>
+      <br><br>
+      <a>
+        <mat-icon matListIcon>email</mat-icon>
+         info@hexalcorp.com
+      </a>
+    </div>
+  </div>
+</div>
