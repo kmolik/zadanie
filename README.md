@@ -9,6 +9,8 @@ Used technologies:
 
 # Installation
 
+Install latest version of Node.js.
+Use command prompt to install Angular/CLI, by typing 'npm install -g @angular/cli'.
 After downloading project from github, run the command prompt and navigate to folder containing ExerciseApp.
 Then run 'npm install' command.
 
